@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+#webgl {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.title {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 3rem;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -75%);
+}
+
+#contacts {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3rem;
+    color: white;
+    font-size: 3rem;
+    right: 6.2rem;
+    top: 6rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    border: 0.1rem solid blue;
+    border-radius: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+}
